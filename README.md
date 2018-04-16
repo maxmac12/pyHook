@@ -1,6 +1,6 @@
 pyHook
 ----------
-Branch of pyHook v1.5.1 source code found here: http://pyhook.sourceforge.net/.
+Branch of pyHook v1.5.1 source code found here: http://pyhook.sourceforge.net/
 
 Known bugs
 ----------
@@ -19,4 +19,4 @@ Website
 -------
 Visit http://pyhook.sourceforge.net for older binaries, documentation, and tutorials.
 
-Bug reports and feature requests for this branch should be reported via GitHub.
+Bug reports and feature requests for this branch should be reported here: https://github.com/maxmac12/pyHook/issues
