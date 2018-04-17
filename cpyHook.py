@@ -5,9 +5,8 @@
 # This file is compatible with both classic and new-style classes.
 
 import _cpyHook
-import new
 import types
-new_instancemethod = new.instancemethod
+new_instancemethod = types.MethodType
 
 try:
     _swig_property = property

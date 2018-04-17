@@ -7,6 +7,7 @@ key down, etc. and set the keyboard and/or mouse hook. The underlying C library 
 like the time of the event, the name of the window in which the event occurred, the value of the
 event, any keyboard modifiers, etc.
 """
+from distutils.core import setup, Extension
 
 classifiers = """\
 Development Status :: 5 - Production/Stable
@@ -17,8 +18,6 @@ Topic :: System :: Monitoring
 Topic :: Software Development :: Libraries :: Python Modules
 Operating System :: Microsoft :: Windows
 """
-
-from distutils.core import setup, Extension
 
 libs = ['user32']
 doclines = __doc__.split('\n')

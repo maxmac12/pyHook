@@ -378,6 +378,7 @@ class KeyboardEvent(HookEvent):
     Alt = property(fget=IsAlt)
     Transition = property(fget=IsTransition)
 
+
 class HookManager(object):
     """
     Registers and manages callbacks for low level mouse and keyboard events.
